@@ -226,9 +226,17 @@ div {
       background-color: var(--foreground-color);
       text-align: center;
       width: auto;
-      min-height: auto;
       margin: 0;
-    }
+      overflow: hidden; /* Ensures that any content overflowing the container is hidden */
+  }
+  
+  .grid__item__img {
+      height: 100px;
+      width: 90%;
+      max-width: 90%; /* Ensures the image doesn't exceed its original size */
+      height: auto; /* Maintains the aspect ratio of the image */
+      
+  }
   
     .grid__item:last-child {
       grid-column: 3 / 3;
