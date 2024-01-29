@@ -409,3 +409,10 @@ is the same as
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
           animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.pill {
+  background-color: #ffffff; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 5px 15px; 
+}
