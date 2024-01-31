@@ -416,3 +416,15 @@ is the same as
     border-radius: 20px; 
     padding: 5px 15px; 
 }
+
+.about {
+  border-collapse: separate;
+  border-spacing: 10px; /* Adjust the value as needed for both rows and columns */
+}
+
+.about th,
+.about td {
+  text-align: center;
+  padding: 8px; /* Adjust the value to add padding inside cells */
+}
+
